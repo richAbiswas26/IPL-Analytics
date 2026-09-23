@@ -969,7 +969,13 @@ app.use((req, res) => {
   res.status(404).json({ error: "API route not found" });
 });
 
-app.listen(PORT, () => {
-  console.log(`IPL Analytics API running at http://localhost:${PORT}`);
-  console.log(`Loaded seasons: ${seasonFiles.map(getSeasonNumberFromFile).join(", ")}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`IPL Analytics API running at http://localhost:${PORT}`);
+    console.log(
+      `Loaded seasons: ${seasonFiles.map(getSeasonNumberFromFile).join(", ")}`
+    );
+  });
+}
+
+module.exports = app;
