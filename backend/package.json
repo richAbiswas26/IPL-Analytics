@@ -1,0 +1,15 @@
+{
+  "name": "ipl-analytics-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express API for IPL Analytics JSON data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
