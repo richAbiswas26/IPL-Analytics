@@ -72,7 +72,9 @@ select {
   background: #15171b;
 
   font-size: 21px;
+  
 }
+
 
 .brand-mark.themed {
   background: var(--team-primary);

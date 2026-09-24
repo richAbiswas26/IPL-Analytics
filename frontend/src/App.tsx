@@ -78,14 +78,14 @@ type SearchResult = {
 };
 
 const teamLogos: Record<string, string> = {
-  "Royal Challengers Bengaluru": "/team-logos/rcb.svg",
+  "Royal Challengers Bengaluru": "/team-logos/rcb.png",
   "Mumbai Indians": "/team-logos/mi.svg",
-  "Chennai Super Kings": "/team-logos/csk.svg",
-  "Kolkata Knight Riders": "/team-logos/kkr.svg",
+  "Chennai Super Kings": "/team-logos/csk.png",
+  "Kolkata Knight Riders": "/team-logos/kkr.jpg",
   "Rajasthan Royals": "/team-logos/rr.svg",
   "Sunrisers Hyderabad": "/team-logos/srh.svg",
-  "Delhi Capitals": "/team-logos/dc.svg",
-  "Punjab Kings": "/team-logos/pbks.svg",
+  "Delhi Capitals": "/team-logos/dc.jpg",
+  "Punjab Kings": "/team-logos/pb.webq",
   "Lucknow Super Giants": "/team-logos/lsg.svg",
   "Gujarat Titans": "/team-logos/gt.svg",
 };
@@ -1164,7 +1164,7 @@ useEffect(() => {
 
           <div>
             <h1>
-              IPL<span>ytics</span>
+              <span>IPL</span>
             </h1>
 
             <p>
